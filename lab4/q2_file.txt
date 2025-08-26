@@ -1,0 +1,11 @@
+/home/abc/1abc/
+/home/../root/abc.txt
+/user/docs/report.dat
+/tmp/data123.txt
+/abc/xyz/
+/../test/file.txt
+/home//abc
+/home/abc/file.pdf
+/home/abc/$data.txt
+/
+home/abc/file.txt

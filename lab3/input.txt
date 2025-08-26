@@ -1,0 +1,11 @@
+#define MAX 100
+#include "header.h"
+$COUNT == 10
+@@ single line comment
+"""
+This is a
+multi-line comment
+"""
+main.c
+0x1F
+3.14

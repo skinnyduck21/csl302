@@ -1,0 +1,14 @@
+Line 1: This is the first line of the file.
+Line 2: Testing head, tail, cat, cp implementation.
+Line 3: Compiler Design Lab Assignment.
+Line 4: Lexical Analysis with Lex tool.
+Line 5: Implementing basic Linux commands.
+Line 6: Head shows the first 10 lines.
+Line 7: Tail shows the last 10 lines.
+Line 8: Cat displays the full file.
+Line 9: Cp copies file content.
+Line 10: Error handling added for missing arguments.
+Line 11: This is an extra line to test tail command.
+Line 12: Another extra line for tail command.
+Line 13: Yet another line to test properly.
+Line 14: End of sample file.

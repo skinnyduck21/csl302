@@ -1,0 +1,1 @@
+read echo _valid1 foreach _invalid _yes2 _wow3 wontwork read _whynot8 _havew9 _incorrectanother10 _butwontwork

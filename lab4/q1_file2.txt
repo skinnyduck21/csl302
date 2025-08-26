@@ -1,0 +1,5 @@
+This is file2.txt.
+It will be overwritten when you run the cp command.
+Initially, it contains only three lines.
+Testing cp functionality in Lex assignment.
+End of file2.txt (before copy).
