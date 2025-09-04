@@ -1,0 +1,26 @@
+// Single-line comment: variable declaration
+int x = 42;
+
+/* Multi-line comment
+   continues here
+   and ends here */
+double pi = 3.14159;
+bool flag = true;
+0x12aE
+[]
+int x=12.
+
+string msg = "hello world";
+// Unterminated string test:
+string bad = "oops
+class MyClass extends Base {
+    void method() {
+        // inside method
+        Print("Test output");
+    }
+}
+/* Unterminated comment test:
+int y = 10;
+
+
+
