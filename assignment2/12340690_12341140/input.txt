@@ -1,0 +1,403 @@
+// Test 1: Basic variable declaration and assignment
+void main() {
+    int x;
+    x = 5;
+}
+
+// Test 2: Multiple global variable declarations
+int globalVar;
+double pi;
+bool flag;
+string name;
+
+void main() {
+    int localVar;
+    double value;
+}
+
+// Test 3: Array declarations
+void main() {
+    arr NewArray(10, int);
+    matrix NewArray(5, double);
+}
+
+// Test 4: Function declarations with parameters
+int add(int a, int b) {
+    return a + b;
+}
+
+double multiply(double x, double y) {
+    return x * y;
+}
+
+void main() {
+    int result;
+    result = add(5, 3);
+}
+
+// Test 5: Class declaration with methods
+class Point {
+    int x;
+    int y;
+    
+    void setX(int newX) {
+        x = newX;
+    }
+    
+    int getX() {
+        return x;
+    }
+}
+
+void main() {
+    Point p;
+    p = New(Point);
+}
+
+// Test 6: If statements (simple and if-else)
+void main() {
+    int x;
+    x = 10;
+    
+    if (x > 5) {
+        x = x + 1;
+    }
+    
+    if (x < 20) {
+        x = x * 2;
+    } else {
+        x = x - 1;
+    }
+}
+
+// Test 7: Loop statements (while, do-while, for)
+void main() {
+    int i;
+    int sum;
+    
+    i = 0;
+    while (i < 10) {
+        i = i + 1;
+    }
+    
+    i = 0;
+    do {
+        i = i + 1;
+    } while (i < 5);
+    
+    for (i = 0; i < 10; i = i + 1) {
+        sum = sum + i;
+    }
+}
+
+// Test 8: Expression evaluation with operators
+void main() {
+    int a;
+    int b;
+    int c;
+    bool result;
+    
+    a = 5;
+    b = 10;
+    c = (a + b) * 2 - 3;
+    
+    result = (a < b) && (b > 0);
+    result = (a == 5) || (b != 10);
+    result = !(a > b);
+    
+    c = a * b + c / 2 - a % 3;
+}
+
+// Test 9: Object and array member access
+class Student {
+    int id;
+    string name;
+    
+    void setName(string n) {
+        name = n;
+    }
+}
+
+void main() {
+    Student s;
+    scores NewArray(5, int);
+    
+    s = New(Student);
+    s.id = 101;
+    s.setName("Alice");
+    
+    scores[0] = 95;
+    scores[1] = scores[0] + 5;
+}
+
+// Test 10: Function calls with return values
+int square(int n) {
+    return n * n;
+}
+
+void printValue(int val) {
+    int temp;
+    temp = val;
+}
+
+void main() {
+    int x;
+    int y;
+    
+    x = 5;
+    y = square(x);
+    printValue(y);
+}
+
+// Test 11: Nested blocks
+void main() {
+    int x;
+    x = 10;
+    
+    {
+        int y;
+        y = 20;
+        
+        {
+            int z;
+            z = x + y;
+        }
+    }
+}
+
+// Test 12: Break statement in loop
+int findValue(int n) {
+    int i;
+    
+    for (i = 0; i < n; i = i + 1) {
+        if (i == 5) {
+            break;
+        }
+    }
+    
+    return i;
+}
+
+void main() {
+    int result;
+    result = findValue(10);
+}
+
+// Test 13: Class with multiple methods
+class Calculator {
+    int result;
+    
+    int add(int a, int b) {
+        result = a + b;
+        return result;
+    }
+    
+    int subtract(int a, int b) {
+        result = a - b;
+        return result;
+    }
+    
+    int multiply(int a, int b) {
+        result = a * b;
+        return result;
+    }
+}
+
+void main() {
+    Calculator calc;
+    int value;
+    
+    calc = New(Calculator);
+    value = calc.add(10, 5);
+    value = calc.multiply(value, 2);
+}
+
+// Test 14: Complex expressions with precedence
+void main() {
+    int a;
+    int b;
+    int c;
+    bool flag;
+    
+    a = 5;
+    b = 10;
+    c = 15;
+    
+    c = a + b * c;
+    c = (a + b) * c;
+    c = a * b / c + a % b;
+    
+    flag = a < b && b < c;
+    flag = a == b || b != c;
+    flag = !flag && (a < b);
+    
+    c = -a + b;
+}
+
+// Test 15: For loop with optional expressions
+void main() {
+    int i;
+    i = 0;
+    
+    for (; i < 10; i = i + 1) {
+        i = i;
+    }
+    
+    for (i = 0; ; i = i + 1) {
+        if (i > 5) {
+            break;
+        }
+    }
+}
+
+// Test 16: Nested class usage
+class Inner {
+    int value;
+}
+
+class Outer {
+    Inner inner;
+}
+
+void main() {
+    Outer obj;
+    obj = New(Outer);
+    obj.inner = New(Inner);
+    obj.inner.value = 42;
+}
+
+// Test 17: Multiple array types
+void main() {
+    intArray NewArray(10, int);
+    doubleArray NewArray(20, double);
+    boolArray NewArray(5, bool);
+    stringArray NewArray(15, string);
+}
+
+// Test 18: Nested if statements
+void main() {
+    int x;
+    int y;
+    
+    x = 10;
+    y = 20;
+    
+    if (x > 0) {
+        if (y > 0) {
+            x = x + y;
+        } else {
+            x = x - y;
+        }
+    } else {
+        if (y > 0) {
+            y = y + x;
+        } else {
+            y = y - x;
+        }
+    }
+}
+
+// Test 19: Multiple parameters in functions
+int compute(int a, int b, int c, int d) {
+    int result;
+    result = a + b - c * d;
+    return result;
+}
+
+void display(string msg, int val, bool flag) {
+    int temp;
+    temp = val;
+}
+
+void main() {
+    int x;
+    x = compute(1, 2, 3, 4);
+    display("test", x, true);
+}
+
+// Test 20: Helper function with main
+int helper() {
+    return 0;
+}
+
+void main() {
+    int result;
+    result = helper();
+}
+
+// Test 21: Complex parenthesized expressions
+void main() {
+    int result;
+    bool condition;
+    
+    result = ((5 + 3) * (10 - 2)) / (4 + 1);
+    condition = ((10 > 5) && (3 < 7)) || ((2 == 2) && !(5 != 5));
+}
+
+// Test 22: Mixed global declarations
+int globalInt;
+double globalDouble;
+bool globalBool;
+
+class MyClass {
+    int field;
+}
+
+int globalFunc(int x) {
+    return x * 2;
+}
+
+void main() {
+    globalInt = 10;
+}
+
+// Test 23: Nested loops
+void main() {
+    int i;
+    int j;
+    
+    for (i = 0; i < 10; i = i + 1) {
+        for (j = 0; j < 10; j = j + 1) {
+            if (i == j) {
+                break;
+            }
+        }
+    }
+    
+    i = 0;
+    while (i < 5) {
+        j = 0;
+        while (j < 5) {
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+}
+
+// Test 24: All basic types as parameters
+void testInt(int x) {
+    int local;
+    local = x;
+}
+
+void testDouble(double d) {
+    double local;
+    local = d;
+}
+
+void testBool(bool b) {
+    bool local;
+    local = b;
+}
+
+void testString(string s) {
+    string local;
+    local = s;
+}
+
+void main() {
+    int i;
+    double d;
+    bool b;
+    string s;
+}

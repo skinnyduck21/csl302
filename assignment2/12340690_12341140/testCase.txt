@@ -1,0 +1,55 @@
+int counter;
+double average;
+
+class MathOps {
+    int add(int a, int b) {
+        int result;
+        result = a + b;
+        return result;
+    }
+
+    void display() {
+        print("Done");
+    }
+}
+
+int sumArray(int n) {
+    int total;
+    total = 0;
+    int i;
+    for (i = 0; i < n; i = i + 1) {
+        total = total + i;
+    }
+    return total;
+}
+
+void main() {
+    int x;
+    int y;
+    bool flag;
+    x = 10;
+    y = 20;
+    flag = (x < y) && (y > 0);
+
+    if (flag) {
+        print("x is smaller");
+    } else {
+        print("y is smaller");
+    }
+
+    for (x = 0; x < 5; x = x + 1) {
+        print(x);
+    }
+
+    while (x < 10) {
+        x = x + 1;
+    }
+
+    do {
+        x = x - 1;
+    } while (x > 0);
+
+    MathOps m;
+    m.display();
+}
+
