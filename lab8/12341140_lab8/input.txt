@@ -1,0 +1,6 @@
+int a, b;
+float c;
+a < b;
+a and b;
+not a;
+true or false;
