@@ -1,0 +1,4 @@
+int a;
+a = 0;
+while a < 3 do
+    a = a + 1;

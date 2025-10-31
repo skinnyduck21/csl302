@@ -1,0 +1,6 @@
+int a;
+int b;
+a = 2;
+b = 7;
+if a < b then
+    a = a + b;
