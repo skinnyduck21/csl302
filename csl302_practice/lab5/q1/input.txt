@@ -1,0 +1,6 @@
+int a;
+char c;
+float f;
+int a, b, c;
+float a,b,cd;
+char vdbkjdk;

@@ -1,0 +1,26 @@
+int x, y, z;
+float A, B;
+
+int a, b, c;
+a = 5;
+b = 10;
+c = a + b;
+
+int x;
+x = 2 + 3 * 4 - 5;
+
+int a, b;
+b = a > 5;
+
+int a, b;
+b = a > 5 and a < 10;
+
+int x;
+x = y > 10 or y < 5;
+
+int flag;
+flag = not (x > 5);
+
+int result;
+result = a > 5 and b < 10 or c == 3;
+

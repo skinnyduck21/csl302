@@ -1,0 +1,56 @@
+int x1, y1, z1;
+float a1, b1;
+
+int a2, b2, c2;
+a2 = 5;
+b2 = 10;
+c2 = a2 + b2;
+
+int x3;
+x3 = 2 + 3 * 4 - 5;
+
+int a4, b4;
+b4 = a4 > 5;
+
+int a5, b5;
+b5 = a5 > 5 and a5 < 10;
+
+int x6, y6;
+x6 = y6 > 10 or y6 < 5;
+
+int flag7, x7;
+flag7 = not (x7 > 5);
+
+int result8, a8, b8, c8;
+result8 = a8 > 5 and b8 < 10 or c8 == 3;
+
+int x9;
+if x9 > 5 then { x9 = x9 + 1; }
+
+int x10, result10;
+if x10 > 5 then { result10 = 1; } else { result10 = 0; }
+
+int i11;
+i11 = 0;
+while i11 < 10 do { i11 = i11 + 1; }
+
+int x12;
+x12 = 0;
+while x12 < 100 and x12 > 0 do { x12 = x12 * 2; }
+
+int a13, b13;
+if a13 > 5 then { if b13 < 10 then { a13 = b13; } }
+
+int a14;
+a14 = 5;
+a14 = a14 < 10;
+a14 = a14 <= 10;
+a14 = a14 > 0;
+a14 = a14 >= 0;
+a14 = a14 == 5;
+a14 = a14 != 3;
+
+int x15, y15, z15;
+x15 = 5;
+y15 = 10;
+z15 = x15 + y15 > 10 and x15 * y15 < 100;
