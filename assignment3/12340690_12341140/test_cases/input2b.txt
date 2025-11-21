@@ -1,0 +1,36 @@
+int x;
+int y;
+int result;
+
+int main() {
+    x = 5;
+    y = 10;
+
+    if (x < y) {
+        result = 1;
+    } else {
+        result = 0;
+    }
+
+    if (x > y) {
+        result = 2;
+    }
+
+    if (x <= y) {
+        result = 3;
+    }
+
+    if (x >= y) {
+        result = 4;
+    }
+
+    if (x == y) {
+        result = 5;
+    }
+
+    if (x != y) {
+        result = 6;
+    }
+
+    return result;
+}

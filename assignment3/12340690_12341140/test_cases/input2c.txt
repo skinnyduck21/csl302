@@ -1,0 +1,20 @@
+int flag;
+int a;
+int b;
+
+int main() {
+    a = 1;
+    b = 0;
+
+    if (a && b) {
+        flag = 1;
+    } else {
+        flag = 0;
+    }
+
+    if (a || b) {
+        flag = 2;
+    }
+
+    return flag;
+}

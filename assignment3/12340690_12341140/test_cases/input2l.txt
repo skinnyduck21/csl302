@@ -1,0 +1,17 @@
+int x;
+int y;
+
+int main() {
+    int a;
+    a = 5;
+
+    {
+        int b;
+        b = 10;
+        x = a + b;
+    }
+
+    y = a;
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+int x;
+int result;
+
+int main() {
+    x = 5;
+
+    if (!x) {
+        result = 0;
+    } else {
+        result = 1;
+    }
+
+    return result;
+}

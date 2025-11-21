@@ -1,0 +1,16 @@
+int a;
+int b;
+int c;
+int d;
+int result;
+
+int main() {
+    a = 2;
+    b = 3;
+    c = 4;
+    d = 5;
+
+    result = a + b * c / d - a;
+
+    return result;
+}

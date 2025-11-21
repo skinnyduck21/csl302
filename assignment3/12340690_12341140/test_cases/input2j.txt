@@ -1,0 +1,14 @@
+int arr[20];
+int idx;
+int value;
+
+int main() {
+    idx = 5;
+    value = 100;
+
+    arr[idx] = value;
+    arr[idx + 1] = value + 1;
+    arr[2 * idx] = arr[idx];
+
+    return 0;
+}
